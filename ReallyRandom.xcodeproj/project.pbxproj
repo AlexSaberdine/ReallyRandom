@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1148EF171C7E32A90077DC0C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148EF161C7E32A90077DC0C /* main.swift */; };
+		1148EF1E1C7E33620077DC0C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1148EF1D1C7E33620077DC0C /* AVFoundation.framework */; };
+		1148EF201C7E338B0077DC0C /* Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148EF1F1C7E338B0077DC0C /* Processor.swift */; };
+		1148EF221C7E33BB0077DC0C /* CameraCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148EF211C7E33BB0077DC0C /* CameraCapture.swift */; };
+		1148EF241C7E33CC0077DC0C /* DataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148EF231C7E33CC0077DC0C /* DataCache.swift */; };
+		1148EF261C7E33D50077DC0C /* KeyMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1148EF251C7E33D50077DC0C /* KeyMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		1148EF131C7E32A90077DC0C /* ReallyRandom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Really\U0010Random"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1148EF161C7E32A90077DC0C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1148EF1D1C7E33620077DC0C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1148EF1F1C7E338B0077DC0C /* Processor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Processor.swift; sourceTree = "<group>"; };
+		1148EF211C7E33BB0077DC0C /* CameraCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraCapture.swift; sourceTree = "<group>"; };
+		1148EF231C7E33CC0077DC0C /* DataCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataCache.swift; sourceTree = "<group>"; };
+		1148EF251C7E33D50077DC0C /* KeyMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1148EF1E1C7E33620077DC0C /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +52,7 @@
 		1148EF0A1C7E32A80077DC0C = {
 			isa = PBXGroup;
 			children = (
+				1148EF1D1C7E33620077DC0C /* AVFoundation.framework */,
 				1148EF151C7E32A90077DC0C /* ReallyRandom */,
 				1148EF141C7E32A90077DC0C /* Products */,
 			);
@@ -58,8 +70,20 @@
 			isa = PBXGroup;
 			children = (
 				1148EF161C7E32A90077DC0C /* main.swift */,
+				1148EF271C7E34080077DC0C /* Classes */,
 			);
 			path = "Really\U0010Random";
+			sourceTree = "<group>";
+		};
+		1148EF271C7E34080077DC0C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1148EF1F1C7E338B0077DC0C /* Processor.swift */,
+				1148EF231C7E33CC0077DC0C /* DataCache.swift */,
+				1148EF251C7E33D50077DC0C /* KeyMaker.swift */,
+				1148EF211C7E33BB0077DC0C /* CameraCapture.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1148EF241C7E33CC0077DC0C /* DataCache.swift in Sources */,
 				1148EF171C7E32A90077DC0C /* main.swift in Sources */,
+				1148EF221C7E33BB0077DC0C /* CameraCapture.swift in Sources */,
+				1148EF201C7E338B0077DC0C /* Processor.swift in Sources */,
+				1148EF261C7E33D50077DC0C /* KeyMaker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
